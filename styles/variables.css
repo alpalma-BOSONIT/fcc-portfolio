@@ -1,0 +1,9 @@
+:root {
+    --primary: red;
+    --secondary: blue;
+    --font-titles: monospace;
+    --font-body: arial;
+    --font-big: 2.5 rem;
+    --font-medium: 1.75 rem;
+    --font-small: 1.25 rem;
+}
