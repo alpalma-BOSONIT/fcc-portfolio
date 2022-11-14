@@ -11,4 +11,5 @@
     --font-medium: 1.75rem;
     --font-small: 1.25rem;
     --small-screen: 480px;
+    --gradient: linear-gradient(to bottom right, rgba(221, 42, 14, 0.8), rgba(245, 108, 58, .8));
 }

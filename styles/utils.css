@@ -1,6 +1,7 @@
 .container {
     width: min(90%, 60rem);
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .link--white, .link--red {

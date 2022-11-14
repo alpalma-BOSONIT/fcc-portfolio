@@ -1,21 +1,10 @@
-/* h1 {
-    font-size: var(--font-big);
-    font-family: var(--font-titles);
-}
-p {
-    font-size: var(--font-medium);
-    font-family: var(--font-body);
-} */
 #welcome-section {
     height: 100vh;
-    background-image: linear-gradient(to bottom right, rgba(221, 42, 14, 0.8), rgba(245, 108, 58, .8)), url('../../assets/cup-of-coffee-gc3fa0fe5c_1920.jpg');
+    background-image: var(--gradient), url('../../assets/cup-of-coffee-gc3fa0fe5c_1920.jpg');
     background-size: cover;
     padding-top: 8rem;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    
-
 }
-
 
 .welcome-section__h1 {
     font-size: var(--font-big);
@@ -28,6 +17,7 @@ p {
     font-family: var(--font-body);
     color: var(--bg)
 }
+
 @media (min-width: 480px) {
     #welcome-section  {
         display: grid;
