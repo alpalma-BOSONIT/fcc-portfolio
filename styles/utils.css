@@ -27,3 +27,11 @@
     color: var(--primary);
     
 }
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.d-inline-block {
+    display: inline-block;
+}

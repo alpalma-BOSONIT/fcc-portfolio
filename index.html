@@ -1,88 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Álvaro Palma | Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="container">
-            <ul class="navbar__links">
-                <li class="navbar__links__link">Projects</li>
-                <li class="navbar__links__link">Contact</li>
-            </ul>
-        </div>
+      <div class="container">
+        <ul class="navbar__links">
+          <li class="navbar__links__link move-up">Projects</li>
+          <li class="navbar__links__link move-up">Contact</li>
+        </ul>
+      </div>
     </nav>
 
-   <section id="welcome-section">
-        <div class="container">
-            <h1 class="welcome-section__h1">Frontend Associate Consultant</h1>
-            <p class="welcome-section__p">Álvaro Palma</p>
-            <a class="link--white" href="https://github.com/alpalma95" target="_blank">View GitHub Profile &rarr;</a>
+    <section id="welcome-section">
+      <div class="container opacity-0 move-up-4s">
+        <h1 class="welcome-section__h1">Frontend Associate Consultant</h1>
+        <p class="welcome-section__p ">Álvaro Palma</p>
+        <a
+          class="link--white"
+          href="https://github.com/alpalma95"
+          target="_blank"
+          >View GitHub Profile <span class="d-inline-block move-left">&rarr;</span></a
+        >
+      </div>
+    </section>
+    <main id="projects">
+      <div class="container">
+        <h1 class="projects__h1">Projects</h1>
+        <div class="projects__cards-section">
+          <div class="card">
+            <div class="card__img card__img--1"></div>
+            <div class="card__description">
+              <h2 class="project-title">Pick Me App</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://pickme-project.herokuapp.com/"
+                    class="link--white"
+                    target="_blank"
+                    >Live &rarr;</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/alpalma95/dont-waste-food"
+                    class="link--white"
+                    target="_blank"
+                    >Code &rarr;</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__img card__img--2"></div>
+            <div class="card__description">
+              <h2 class="project-title">Gonzalo</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://gonzodico.vercel.app/"
+                    class="link--white"
+                    target="_blank"
+                    >Live &rarr;</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/alpalma95/gon-portfolio"
+                    class="link--white"
+                    target="_blank"
+                    >Code &rarr;</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__img card__img--3"></div>
+            <div class="card__description">
+              <h2 class="project-title">Al</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://alpalma95.github.io/portfolio/"
+                    class="link--white"
+                    target="_blank"
+                    >Live &rarr;</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/alpalma95/gon-portfolio"
+                    class="link--white"
+                    target="_blank"
+                    >Code &rarr;</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-   </section>
-   <main id="projects">
-        <div class="container">
-            <h1 class="projects__h1">Projects</h1>
-            <div class="projects__cards-section">
+      </div>
+    </main>
 
-                <div class="card">
-                    <div class="card__img card__img--1">
-                    </div>
-                    <div class="card__description">
-                        <h2 class="project-title">Pick Me App</h2>
-                        <ul>
-                            <li>
-                                <a href="https://pickme-project.herokuapp.com/" class="link--white" target="_blank">Live &rarr;</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/alpalma95/dont-waste-food" class="link--white" target="_blank">Code &rarr;</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img card__img--2">
-                    </div>
-                    <div class="card__description">
-                        <h2 class="project-title">Gonzalo</h2>
-                        <ul>
-                            <li>
-                                <a href="https://gonzodico.vercel.app/" class="link--white" target="_blank">Live &rarr;</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/alpalma95/gon-portfolio" class="link--white" target="_blank">Code &rarr;</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img card__img--3">
-                    </div>
-                    <div class="card__description">
-                        <h2 class="project-title">Al</h2>
-                        <ul>
-                            <li>
-                                <a href="https://alpalma95.github.io/portfolio/" class="link--white" target="_blank">Live &rarr;</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/alpalma95/gon-portfolio" class="link--white" target="_blank">Code &rarr;</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+    <section id="contact">
+      <div class="container">
+        <h1 class="contact__h1">Get in touch</h1>
+        
+        <div class="contact__flex">
+            <div class="contact__links">
+                <h2 class="contact__h2">Socials</h2>
+                <ul>
+                    <li class="link--white"><span><i class="fa-brands fa-linkedin"></i></span> LinkedIn</li>
+                    <li class="link--white"><span><i class="fa-brands fa-github"></i></span> GitHub</li>
+                    <li class="link--white"><span><i class="fa-brands fa-square-gitlab"></i></span> GitLab</li>
+                </ul>
+            </div>
+    
+            <div class="contact__form">
+                <h2 class="contact__h2">Send me an email</h2>
+                <form action="#">
+                    <label for="emailName">Your name:</label>
+                    <input type="text" placeholder="Your name" id="emailName" name="emailName">
+                    <label for="emailEmail">Your email:</label>
+                    <input type="text" placeholder="Your email" id="emailEmail" name="emailEmail">
+                    <label for="emailBody">You tell me!</label>
+                    <textarea name="emailBody" id="emailBody" cols="30" rows="10"></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
         </div>
 
-   </main>
-   <section id="contact"></section>
-   <footer></footer>
-</body>
+      </div>
+    </section>
+ 
+  </body>
 </html>

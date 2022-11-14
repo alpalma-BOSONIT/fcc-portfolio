@@ -3,6 +3,8 @@
     background-image: var(--gradient), url('../../assets/cup-of-coffee-gc3fa0fe5c_1920.jpg');
     background-size: cover;
     padding-top: 8rem;
+    text-align: center;
+
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
@@ -22,7 +24,6 @@
     #welcome-section  {
         display: grid;
         place-content: center;
-        text-align: center;
         padding: 0;
     }
     .welcome-section__h1 {

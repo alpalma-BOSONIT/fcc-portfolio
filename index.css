@@ -1,11 +1,15 @@
 @import './styles/variables.css';
 @import './styles/resets.css';
 @import './styles/utils.css';
+@import './styles/animations.css';
 
 /* Sections */
 @import './styles/sections/welcome-section.css';
 @import './styles/sections/projects.css';
+@import './styles/sections/contact.css';
 
 /* Components */
 @import './styles/components/navbar.css';
 @import './styles/components/project-card.css';
+
+
