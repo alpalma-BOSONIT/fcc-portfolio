@@ -1,2 +1,9 @@
+@import './styles/variables.css';
 @import './styles/resets.css';
 @import './styles/utils.css';
+
+/* Sections */
+@import './styles/sections/welcome-section.css';
+
+/* Components */
+@import './styles/sections/components/navbar.css';

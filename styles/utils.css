@@ -1,5 +1,28 @@
 .container {
-    min-width: 90%;
-    max-width: 80rem;
+    width: min(90%, 60rem);
     margin: 0 auto;
+}
+
+.link--white, .link--red {
+    font-family: var(--font-titles);
+    font-size: var(--font-small);
+    text-decoration: underline dashed;
+    transition: background .2s;
+    cursor: pointer;
+}
+
+.link--white {
+    color: var(--bg);
+   
+}
+
+.link--white:hover {
+    color: var(--primary);
+    background-color: var(--bg);
+    text-decoration: none;
+}
+
+.link--red {
+    color: var(--primary);
+    
 }

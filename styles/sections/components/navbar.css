@@ -1,0 +1,19 @@
+.navbar {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    font-weight: 700;
+    font-family: var(--font-titles);
+    font-size: var(--font-small);
+    color: var(--bg);
+}
