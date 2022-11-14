@@ -1,12 +1,14 @@
 #contact {
     min-height: 90vh;
     background-image: var(--gradient-hard);
+    padding: 4rem 0;
 }
 
 .contact__h1 {
     font-family: var(--font-titles);
     font-size: var(--font-big);
-    color: var(--bg)
+    color: var(--bg);
+
 }
 
 .contact__h2 {
